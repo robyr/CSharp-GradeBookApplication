@@ -10,6 +10,8 @@ namespace GradeBook.UserInterfaces
         public static bool Quit = false;
         public static void CommandLoop(BaseGradeBook gradeBook)
         {
+            //Random comment - testing out bitbucket integration
+            string newVariable = string.Empty;
             GradeBook = gradeBook;
             Quit = false;
 
